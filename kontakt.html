@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="no">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Ta kontakt med Nordtre AS for en prat om ditt byggeprosjekt.">
+	<title>Kontakt | Nordtre AS</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<header class="site-header">
+		<div class="nav-wrap">
+			<a class="brand" href="index.html">
+				<span class="brand-mark">N<span>.</span></span>
+				<span class="brand-name">NORDTRE<small>BYGG & HÅNDVERK</small></span>
+			</a>
+			<button class="menu-toggle" aria-label="Åpne meny" aria-expanded="false"><span></span><span></span></button>
+			<nav class="main-nav">
+				<a href="index.html">Hjem</a>
+				<a href="om-oss.html">Om oss</a>
+				<a href="tjenester.html">Tjenester</a>
+				<a href="prosjekter.html">Prosjekter</a>
+				<a class="nav-cta active" href="kontakt.html">Ta kontakt <span>↗</span></a>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section class="page-hero contact-hero">
+			<div class="container page-hero-content">
+				<p class="eyebrow light">VI ER KLARE FOR Å LYTTE</p>
+				<h1>Hva har du<br><em>i tankene?</em></h1>
+				<p>Fortell oss litt om prosjektet ditt, så tar vi kontakt for en uforpliktende prat.</p>
+			</div>
+		</section>
+		<section class="section-pad contact-section">
+			<div class="container contact-grid">
+				<div class="contact-details">
+					<p class="eyebrow">KONTAKTINFORMASJON</p>
+					<h2>La oss starte<br><em>med en samtale.</em></h2>
+					<p class="contact-intro">Enten du har konkrete tegninger eller bare en idé, vil vi gjerne høre fra deg.</p>
+					<div class="contact-item">
+						<span>E-POST</span>
+						<p>Legg inn e-post</p>
+					</div>
+					<div class="contact-item">
+						<span>TELEFON</span>
+						<p>Legg inn telefonnummer</p>
+					</div>
+					<div class="contact-item">
+						<span>ADRESSE</span>
+						<p>Legg inn adresse</p>
+					</div>
+					<div class="contact-item">
+						<span>ÅPNINGSTIDER</span>
+						<p>Legg inn åpningstider</p>
+					</div>
+				</div>
+				<div class="contact-form-wrap">
+					<form class="contact-form" id="contact-form">
+						<div class="form-heading">
+							<h3>Send oss en melding</h3>
+							<p>Vi svarer så snart vi har mulighet.</p>
+						</div>
+						<label for="name">Navn</label>
+						<input id="name" name="name" autocomplete="name" placeholder="Ditt navn" required>
+						<label for="email">E-post</label>
+						<input id="email" name="email" type="email" autocomplete="email" placeholder="Legg inn e-postadresse" required>
+						<label for="phone">Telefon <span>(valgfritt)</span></label>
+						<input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="Ditt telefonnummer">
+						<label for="project">Hva gjelder henvendelsen?</label>
+						<select id="project" name="project">
+							<option value="">Velg type prosjekt</option>
+							<option>Nybygg</option>
+							<option>Renovering</option>
+							<option>Terrasse og uteområde</option>
+							<option>Tak og fasade</option>
+							<option>Annet</option>
+						</select>
+						<label for="message">Fortell litt om prosjektet</label>
+						<textarea id="message" name="message" rows="4" placeholder="Hva ønsker du hjelp med?" required></textarea>
+						<button class="button button-dark" type="submit">Klargjør e-post <span>↗</span></button>
+						<p class="form-note">Skjemaet må kobles til firmaets e-postadresse før bruk. Ingen data lagres på denne nettsiden.</p>
+						<p class="form-status" role="status" aria-live="polite"></p>
+					</form>
+				</div>
+			</div>
+		</section>
+		<section class="map-section">
+			<div class="container map-placeholder">
+				<div class="map-art">
+					<span class="map-pin">N</span>
+					<span class="map-label">LEGG INN STED</span>
+				</div>
+				<div class="map-caption">
+					<div>
+						<p class="eyebrow">LEGG INN STED</p>
+						<h3>Lokalt håndverk,<br><em>nær deg.</em></h3>
+					</div>
+					<span class="under-link">Legg inn kartlenke</span>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="site-footer">
+		<div class="container footer-top">
+			<a class="brand brand-footer" href="index.html">
+				<span class="brand-mark">N<span>.</span></span>
+				<span class="brand-name">NORDTRE<small>BYGG & HÅNDVERK</small></span>
+			</a>
+			<p>Solid håndverk. Gode løsninger.<br>Bygget for å vare.</p>
+			<div class="footer-contact">
+				<span>Legg inn e-post</span>
+				<span>Legg inn telefonnummer</span>
+			</div>
+		</div>
+		<div class="container footer-bottom">
+			<span>© <span data-year></span> Nordtre AS</span>
+			<span>Org.nr.: legg inn informasjon · Sted: legg inn informasjon</span>
+			<a href="kontakt.html">Kontakt oss ↗</a>
+		</div>
+	</footer>
+</body>
+</html>
